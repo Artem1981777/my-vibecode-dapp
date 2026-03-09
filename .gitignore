@@ -190,4 +190,25 @@ export function getOwner(): Address {
 
 export function getLastWithdrawTime(): u64 {
   return last_withdraw_time
-}
+}# Node
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Builds
+dist
+build
+.next
+out
+
+# Env / Secrets
+.env
+.env.local
+
+# Editors
+.vscode
+.idea
+.DS_Store
+
+# Logs
+*.log
